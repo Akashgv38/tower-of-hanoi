@@ -57,7 +57,7 @@ function displayTowers() {
 
 async function visualizeSteps() {
     for (let i = 0; i < steps.length; i++) {
-        if (stopFlag) break;  button
+        if (stopFlag) break;
 
         moveDisk(steps[i].from, steps[i].to);
         await sleep(speed);  
